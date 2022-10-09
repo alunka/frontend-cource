@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: azure;
+    margin: 0;
+}
+
+.wrapper {
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+
+.link {
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    color: purple;
+    background-color: burlywood;
+}
+
+/*? fonts */
+
+
