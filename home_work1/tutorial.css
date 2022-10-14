@@ -1,0 +1,18 @@
+body {
+    background-color:rgba(128, 125, 125, 0.274) ;
+    font-family: sans-serif;
+    margin: 15px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+code {
+    color: brown;
+    background-color:rgba(128, 125, 125, 0.425) ;
+}
+
+pre {
+    background-color:rgba(128, 125, 125, 0.425) ;
+}
