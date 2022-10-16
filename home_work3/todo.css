@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(224, 243, 236);
+    font-family: sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div {
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+span {
+    color: brown;
+    font-weight: bold;
+}
+
+abbr {
+    text-decoration: line-through;
+}
+
+.done {
+    background-color: lightgrey;
+}

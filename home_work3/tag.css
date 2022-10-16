@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(224, 243, 236);
+    font-family: sans-serif;
+    
+}
+
+dt {
+    font-style: italic;
+}
+
+span {
+    opacity: 0.65;
+}
