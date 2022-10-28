@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(41, 41, 41);
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: azure;
+}
+.wraper{
+    height: 100vh;
+}
+
+.list {
+    counter-reset: number;
+    list-style: none;
+}
+
+.list li::before {
+    content: counter(number) ") ";
+    counter-increment: number
+}
+
+.list_item {
+}
+
+.list_item_1 {
+}
+
+.list_item_2 {
+}
+
+.list_item_3 {
+}
+
+.list_item_4 {
+}
+
+.list_item_5 {
+}
+
+.list_item_6 {
+}
+
+.text_wraper {
+    text-align: center;
+}
+
+.text {
+    width: 70vw;
+}
+    
+.text::before, .text::after {
+    background-color: rgb(255, 127, 127)
+}
+
+.text::before {
+    content: "Start";
+}
+
+.text::after {
+    content: "End";
+}
+
+.text-marker::after {
+    content: url(./sun.png);
+}
+
+.season_list, season_item  {
+    list-style: none;
+}
+
+li.season_item li  {
+    list-style: none;
+}
+
+.season_list li::before {
+    content: url(./arrow_16.png);
+}
+
+.season_item_1 li::before {
+    content: url(./snow.png);
+}
+
+.season_item_2 li::before {
+    content: url(./leaf.png);
+}
