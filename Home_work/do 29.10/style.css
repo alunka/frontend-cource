@@ -1,0 +1,18 @@
+body {
+    background-image: url(./grass.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    background-color: #157979a8;
+    color: aliceblue;
+  }
