@@ -1,0 +1,69 @@
+body {
+    background-color: #c5c5f0;
+    font-family: sans-serif;
+}
+
+.card {
+        box-sizing: border-box;
+        /* Auto layout */
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    
+        width: 200px;
+        height: 330px;
+        position: relative;
+        display: inline-flex;
+
+        /* box shadow */
+        box-shadow: 2px 5px 8px 2px rgba(84, 84, 84, 0.9);
+
+        background: linear-gradient(155.14deg, rgba(203, 185, 185, 0.808) -2.13%, rgba(253, 253, 253, 0.75) 136.58%);
+        filter: drop-shadow(0px 4px 49px rgba(0, 7, 72, 0.12));
+        backdrop-filter: blur(7.5px);
+        /* Note: backdrop-filter has minimal browser support */
+        border-radius: 20px;
+        margin: 10px;
+}
+
+.card:hover {
+    height: 350px;
+    width: 210px;
+    position: static;
+    transition: all 400ms;
+}
+
+.buy-button {
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 90px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.description {
+    font-size: small;
+}
+
+.price {
+    font-size: xx-large;
+}
+
+.unit {
+    color: #6c6666a9;
+}
+
+.block-space {
+    margin-bottom: 15px;
+}
+
+hr {
+    border: 2px solid;
+    width: 98%;
+}
