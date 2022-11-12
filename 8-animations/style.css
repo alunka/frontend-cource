@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(41, 41, 41);
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+}
+.example {
+    background-color: fuchsia;
+    width: 300px;
+    height: 300px;
+    border-radius: 45px;
+    border: 2px solid purple;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.animation-class {
+    animation-name: my-animation;
+    animation-duration: 5000ms;
+    animation-iteration-count: 5;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-direction; forvads;
+}
+
+.animation-class:hover {
+    animation-play-state: running;
+    animation-play-state: paused;
+}
+
+@keyframes my-animation {
+    from {
+        background-color: black;
+    }
+        20% {
+            transform: scale: (0,5);
+        }
+        50% {
+            border: 10px solid 
+        }
+        100% {
+            back
+            
+        }

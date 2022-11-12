@@ -1,0 +1,83 @@
+.wrapper {
+    text-align: center;
+}
+.block {
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgb(0, 102, 128);
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.block > p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.4rem;
+    color: rgb(99, 95, 95);
+}
+
+.block_1  {
+    background-color: chocolate;
+}
+
+.block_2 {
+    background-image: url("./img/photo/cyberpunk.jpg.jpg");
+    background-position: center;
+}
+
+.block_3{
+    background-image: url(./img/photo/texture.jpg);
+    box-sizing: 20%;
+    background-repeat: repeat;
+    /* background-repeat: no-repeat; */
+  }
+.block_4 {
+background-image:url(../css/img/photo/texture.jpg);
+box-sizing: 20%;
+background-color: blueviolet ;
+background-repeat: no-repeat;
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+}
+.block_13
+{
+border: 10px dashed gray;    
+background-size: 100%;
+background-repeat: no-repeat;
+background-image: url(./img/photo/900.jpg);
+background-origin: border-box;
+}
+.block_14 {
+    border: 10px dashed gray;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(./img/photo/900.jpg);
+    padding: 40px;
+    background-origin: padding-box;
+
+}
+.block_16 {
+    background: url(../css/img/photo/900.jpg ) center/ cover no-repeat;
+}
+
+.block_17 {
+    background-image: url(./img/photo/900.jpg), url(./img/photo/cyberpunk.jpg.jpg), url(./img/photo/texture.jpg); 
+        background-repeat: no-repeat;
+        background-size: 20%, 20%, 20%;
+        background-position: left bottom, center, right;
+    
+    }
+.block_18 > p {
+    background: radial-gradient(#2aa5a0 1px, transparent 2px);
+    background-size: 3px 3px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+  

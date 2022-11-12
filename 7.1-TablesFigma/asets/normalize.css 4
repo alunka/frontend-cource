@@ -1,0 +1,14 @@
+
+
+
+
+
+:root {
+  --black: #212121;
+  --gray: #464e5f;
+  --light-gray: #b5b5c3;
+  --btn-blue: #3699ff;
+  --btn-pink: #f64e60;
+  --btn-green: #c9f7f5;
+  --btn-green-text: #1bc5bd;
+}

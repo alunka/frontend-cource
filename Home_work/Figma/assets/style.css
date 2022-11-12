@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&amp;display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,700&amp;family=Shrikhand&amp;display=swap');
+
+body {
+background-color: #323288;
+}
+
+.wrapper {
+        box-sizing: border-box;
+        /* Auto layout */
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    
+        width: 324.09px;
+        height: 472px;
+    
+        background: linear-gradient(155.14deg, rgba(0, 0, 0, 0) -2.13%, rgba(255, 255, 255, 0.15) 136.58%);
+        filter: drop-shadow(0px 4px 49px rgba(0, 7, 72, 0.12));
+        backdrop-filter: blur(7.5px);
+        /* Note: backdrop-filter has minimal browser support */
+    
+        border-radius: 20px;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 1;
+        border: 1.5px solid;
+        border-image-source: linear-gradient(151.65deg, rgba(255, 255, 255, 0.3) -6.81%, rgba(255, 255, 255, 0) 106.92%);
+}
+
+.men {
+    /* image 14 */
+    width: 284px;
+    height: 281px;
+    left: 899px;
+    top: 3669px;
+    background: url(./image_14.svg);
+    border-radius: 15px;
+}
+
+.sneak {
+    width: 284.09px;
+    height: 33px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.sneak-head {
+    width: 284.09px;
+        height: 20px;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        /* identical to box height */
+    
+        display: flex;
+        align-items: center;
+    
+        color: #FFFFFF;
+    
+        opacity: 0.7;
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+}
+.ETN {
+    /* 0.45 ETH */
+    
+        width: 119.04px;
+        height: 28px;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+    
+        color: #FFFFFF;
+    
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 1;
+}
+
+.Floor {
+    /* from */
+    
+        width: 119.04px;
+        height: 28px;
+    
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        display: flex;
+        align-items: center;
+    
+        color: #FFFFFF;
+    
+    
+        /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 1;
+}
+
+.bottom-block {
+    display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0px 3px;
+        gap: 40px;
+    
+        width: 284.09px;
+        height: 56px;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+}
+
+.price {
+    width: 119.04px;
+    height: 35px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: right;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 1;
+}
+
+.percent {
+    width: 119.04px;
+    height: 21px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: right;
+
+    color: #24FF00;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.right-div {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 0px;
+    
+        width: 119.04px;
+        height: 56px;
+    
+    
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 1;
+}
