@@ -1,0 +1,15 @@
+.progress-bar {
+    height: 20px;
+    background-color: #23723b;
+    margin: 3px;
+    padding: 3px;
+    color: #c7c7c7;
+    text-shadow: 2px 3px 3px #4b4b4bf7;
+}
+
+.progress-wrapper {
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    display: flex;
+}
