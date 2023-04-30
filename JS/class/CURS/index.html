@@ -4,11 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cors vaiute</title>
+    <title>Currency exchange rate</title>
     <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    
     <script src="./script.js"></script>
+</head>
+<b>
+
+    <h3>Privatbank currency exchange rate (cash)</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Currency</th><th>Buy</th><th>Sale</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>USD <b>$</b></td>
+                <td id="USD_buy"></td>
+                <td id="USD_sale"></td>
+            </tr>
+            <tr>
+                <td>EUR <b>€</b></td>
+                <td id="EUR_buy"></td>
+                <td id="EUR_sale"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <label for="uah_amount">Currency amount</label>
+    <input name="uah_amount" id="currency_amount" type="number" min="1" value="1"/>
+    <button onclick="privatbank();">Update</button>
+    <table>
+        <thead>
+            <tr>
+                <th>Buy</th>
+                <th>Sale</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="USD_buy_amount"></td>
+                <td id="USD_sale_amount"></td>
+            </tr>
+            <tr>
+                <td id="EUR_buy_amount"></td>
+                <td id="EUR_sale_amount"></td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
