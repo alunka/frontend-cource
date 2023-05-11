@@ -2,8 +2,13 @@ import './NotFound.css'
 
 
 const NotFound = () => {
-    return(
-        <h1>Not Found</h1>
+    return (
+        <>
+        
+<div class="alert alert-warning text-center" style={{margin:'30px'}} role="alert">
+  Not Found
+</div>
+</>
     )
 }
 
