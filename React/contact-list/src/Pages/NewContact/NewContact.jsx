@@ -45,7 +45,14 @@ const NewContact = () => {
 
   const navigate = useNavigate();
   const handleSubmit = (values) => {
-    console.log(values);
+    let data = localStorage.getItem("itstep_react_contacts_list");
+    if (data === null) {
+      data = {};
+    } else {
+      data = JSON.parse(data);
+    }
+    data[values.id] = values;
+    localStorage.setItem("itstep_react_contacts_list", JSON.stringify(data));
     navigate("/");
   };
 
@@ -61,7 +68,7 @@ const NewContact = () => {
               onSubmit={handleSubmit}
             >
               {({ isSubmitting }) => (
-                <Form action="/new-contact">
+                <Form>
                   <div>
                     <div className="mb-3">
                       <label

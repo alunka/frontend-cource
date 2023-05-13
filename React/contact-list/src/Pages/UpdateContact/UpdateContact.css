@@ -1,0 +1,15 @@
+.form-elements {
+  margin: 5px;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.input-error-message {
+  color: rgba(240, 42, 42, 0.808);
+}
+
+.update-contact-card {
+  margin: 20px;
+}

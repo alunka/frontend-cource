@@ -17,11 +17,6 @@ const Header = () => {
                   Add contact
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link className="nav-link" to="/update-contact">
-                  Update contact
-                </Link>
-              </li>
             </ul>
             <form className="d-flex" role="search">
               <input
