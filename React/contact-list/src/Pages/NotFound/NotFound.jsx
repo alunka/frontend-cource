@@ -1,15 +1,18 @@
-import './NotFound.css'
-
+import "./NotFound.css";
 
 const NotFound = () => {
-    return (
-        <>
-        
-<div class="alert alert-warning text-center" style={{margin:'30px'}} role="alert">
-  Not Found
-</div>
-</>
-    )
-}
+  return (
+    <>
+      <div
+        className="alert alert-warning text-center"
+        style={{ margin: "30px" }}
+        role="alert"
+      >
+        Page Not Found <br />
+        404
+      </div>
+    </>
+  );
+};
 
-export default NotFound
+export default NotFound;

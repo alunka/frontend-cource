@@ -1,5 +1,45 @@
-.main-cards {
-    display: inline-block;
-    margin: 10px;
-    height: 100%;
+.categories-list-items {
+  width: 100%;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 3px;
+  color: #fff;
+  list-style-type: decimal;
+  padding-left: 6px;
+}
+
+table,
+th,
+td {
+  border: 2px solid #bfbebe;
+  border-collapse: collapse;
+  padding: 6px;
+}
+
+table {
+  width: 100%;
+  margin: 10px;
+  border-radius: 3px;
+}
+
+td {
+  padding: 3px;
+}
+
+.card {
+  height: 100%;
+}
+
+.categories-list-items::marker {
+  color: #000;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.category-counter {
+  font-weight: bold;
+  float: right;
+  padding-right: 3px;
 }
