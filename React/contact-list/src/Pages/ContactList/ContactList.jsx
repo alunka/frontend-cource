@@ -1,5 +1,5 @@
 import "./ContactList.css";
-import ContactItem from "../../Components/ContactItem/cc";
+import ContactItem from "../../Components/ContactItem/ContactItem";
 
 // Icons
 import { FcConferenceCall, FcBullish } from "react-icons/fc";
